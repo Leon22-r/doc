@@ -1,0 +1,29 @@
+.chatbot {
+    background-color: #f0f8ff;  /* Light background color for the section */
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Subtle shadow for better visibility */
+    max-width: 800px;  /* Adjust width to fit your layout */
+    margin: 30px auto;  /* Center the section horizontally */
+  }
+  
+  .chatbot h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;  /* Space between the heading and iframe */
+  }
+  
+  .chatbot iframe {
+    border: none;
+    border-radius: 10px;  /* Smooth corners for the iframe */
+    width: 100%;  /* Make iframe responsive */
+    max-width: 600px;  /* Maximum width */
+    height: 500px;  /* Fixed height, can be adjusted */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);  /* Light shadow for iframe */
+  }
+  
+  .chatbot iframe:focus {
+    outline: none;  /* Remove outline on focus for a cleaner look */
+  }
+  
