@@ -25,7 +25,7 @@ function App() {
               <Resources />
             </>
           } />
-          <Route path="/chat" element={<Chatbot />} />
+          <Route path="/chat" element={< Chatbot/>} />
         </Routes>
         <Footer />
       </div>
